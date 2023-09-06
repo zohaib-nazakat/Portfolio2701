@@ -5,14 +5,16 @@
 // import Form_validations from './Form_validations'
 // import FacebookIcon from '@mui/icons-material/Facebook';
 // import Signup from "./Portfolio/Pages/signUp_Pages/signUP";
-import Landing_page from "./Portfolio/Pages/Landing_Page/Landing_page";
-import Services from "./Portfolio/Pages/Services_Page/Services";
+import Aboutme from "./Portfolio/Pages/About me/Aboutme";
+// import Landing_page from "./Portfolio/Pages/Landing_Page/Landing_page";
+// import Services from "./Portfolio/Pages/Services_Page/Services";
 function App() {
 
   return (
    <>
-    <Landing_page/>
+    {/* <Landing_page/> */}
     {/* <Services/> */}
+    <Aboutme/>
    </>
   )
 }
