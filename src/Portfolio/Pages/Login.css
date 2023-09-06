@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: hsla(172, 85%, 74%, 1);
+
+    background: linear-gradient(45deg, rgb(4, 243, 211) 10%, rgb(237, 43, 175) 100%);
+    
+    background: -moz-linear-gradient(45deg, rgb(25, 234, 206) 10%, rgb(228, 35, 167) 100%);
+    
+    background: -webkit-linear-gradient(45deg, rgb(44, 222, 198) 10%, rgb(220, 28, 160) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#83F5E5", endColorstr="#E761BD", GradientType=1 );
+}
+/* .form{
+    width: 35%;
+} */
+.child{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px 70px 29px 70px;
+    margin-top: 19px;
+    border-radius: 15px;
+}
+.child h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+.pass{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.logo span{
+    padding: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.forget a{
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.second-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn{
+    background: hsla(172, 85%, 74%, 1);
+
+    background: linear-gradient(45deg, rgb(4, 243, 211) 10%, rgb(237, 43, 175) 100%);
+    
+    background: -moz-linear-gradient(45deg, rgb(25, 234, 206) 10%, rgb(228, 35, 167) 100%);
+    
+    background: -webkit-linear-gradient(45deg, rgb(44, 222, 198) 10%, rgb(220, 28, 160) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#83F5E5", endColorstr="#E761BD", GradientType=1 );
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+
+.name:focus{
+    outline: none;
+    border-bottom: 1px solid aqua;
+}
+
+
+.pass:focus{
+    outline: none;
+    border-bottom: 1px solid aqua;
+}
+
+.forget a:hover{
+    color: rgb(208, 85, 208);
+    border-bottom: 1px solid rgb(208, 92, 208);
+}
+
+.btn:hover{
+    border:  transparent;
+}
+
+
+/* ``````````````````Responsive````````````````````````` */
+
+@media screen and (min-width: 870px){
+
+
+}

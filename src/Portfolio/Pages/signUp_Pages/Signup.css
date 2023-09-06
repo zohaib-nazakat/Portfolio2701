@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.signMain{
+    /* background-color: red; */
+    min-height: 100vh;
+    min-width: 30vw;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background: hsla(172, 85%, 74%, 1);
+
+    background: linear-gradient(45deg, rgb(4, 243, 211) 10%, rgb(237, 43, 175) 100%);
+    
+    background: -moz-linear-gradient(45deg, rgb(25, 234, 206) 10%, rgb(228, 35, 167) 100%);
+    
+    background: -webkit-linear-gradient(45deg, rgb(44, 222, 198) 10%, rgb(220, 28, 160) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#83F5E5", endColorstr="#E761BD", GradientType=1 );
+}
+
+.signUp_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    max-height: 80vh;
+    border-radius: 30px;
+    padding: 50px;
+}
+.signUp_form h3{
+    margin-bottom: 30px;
+}
+
+.signUp_fields{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signUp_fields input{
+    border: none;
+    border-bottom: 1px solid aqua;
+    outline: none;
+
+}
+.signUp_fields label{
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 10px;
+}
+.extra a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.extra a:hover{
+    border-bottom: 1px solid blue;
+}
+.btn_signup{
+    margin-top: 10px;
+    border: transparent;
+    background: hsla(172, 85%, 74%, 1);
+
+    background: linear-gradient(45deg, rgb(4, 243, 211) 10%, rgb(237, 43, 175) 100%);
+    
+    background: -moz-linear-gradient(45deg, rgb(25, 234, 206) 10%, rgb(228, 35, 167) 100%);
+    
+    background: -webkit-linear-gradient(45deg, rgb(44, 222, 198) 10%, rgb(220, 28, 160) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#83F5E5", endColorstr="#E761BD", GradientType=1 );
+}
+.checkbx{
+    font-size: 10px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
